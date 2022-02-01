@@ -1,5 +1,5 @@
 # FacebookPhisher
-Hard-to-detect facebook clone webpage that stores victim credentials in either an html file or a mysql database. I recommend the first option for the time being because of security concerns.
+Hard-to-detect facebook clone webpage that stores victim credentials in either an html file or a mysql database. I recommend the first option for the time being due to security-related concerns as it is still in the testing phase.
 
 ## Installation:
 `config.php` is to be edited to suit your needs before you upload the program to the server of your choice.

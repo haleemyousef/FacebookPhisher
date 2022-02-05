@@ -1,7 +1,7 @@
 <?php
 
 
-$MODE = ""; # Either "fopen" or "mysql"
+$MODE = "REPLACE_ME"; # Either "fopen" or "mysql"
 
 
 # If "fopen" was chosen :-

@@ -20,7 +20,7 @@ All contributions are welcomed and appreciated.
 - More informations is to be logged about victims, such as IP address, MAC address, and operating system.
 - To be tested against tools like VEGA and SQLMAP.
 - `mysqli_real_escape_string` to be replaced with a more secure PDO driver.
-- Add more mediums of storing data, such as JSON files, CSV files, and SQLite databases.
+- Add more mediums of storing data, such as CSV files and SQLite databases.
 
 ## Support:
 

@@ -3,6 +3,7 @@ Hard-to-detect facebook clone webpage that stores victim credentials in either a
 
 ## Installation:
 `config.php` is to be edited to suit your needs before you upload the program to the server of your choice.
+(For 'fopen' option): Make sure the user of the web server has edit permissions over the file where the credentials are stored  'REPLACE_ME.html by default'.
 
 ## Features:
 
@@ -11,6 +12,10 @@ Hard-to-detect facebook clone webpage that stores victim credentials in either a
 - Double-line protection against submitting empty strings using both Javascript and PHP.
 - If the `fopen` option was chosen in configuration, the obtained username|password combinations can be securely accessed through any browser.
 - Proof against malicious scripts being submitted as credentials.
+
+## Security Measures:
+- If you're using the 'fopen' option in the configuration file, turn off directory listing in your web server so the credentials file cannot be accessed by unauthorised users.
+- If you're using the 'mysql' option in the configuration file, Make sure your database is secured with a strong password and, preferably, with two-way authentication.
 
 ## Contributing:
 All contributions are welcomed and appreciated.
